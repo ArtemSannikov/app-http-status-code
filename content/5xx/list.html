@@ -1,0 +1,154 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<!-- Charset -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>5xx</title>
+	<!-- Include meta tag to ensure proper rendering and touch zooming-->
+	<meta name="view-port" content="width=device-width, initial-scale=1">
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" href="../../css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="../../css/themes/my-theme.css" />
+	<link rel="stylesheet" href="../../css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="../../css/my-style.css" />
+	<!-- Include the jQuery Mobile library -->
+	<script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.mobile-1.4.5.min.js"></script>
+	<!-- AdMob-->
+	<script type="text/javascript" src="../../js/admob.js"></script>
+	<!-- cordova js -->
+	<script src="../../cordova.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="5xx" data-theme="a">
+
+	<div data-role="header">
+		<a data-role="button" data-rel="back" data-ajax="false" class="ui-nodisc-icon transparentButton" data-icon="carat-l" data-iconpos="notext" data-theme="a" style="margin-top: 2px;">Кнопка назад</a>
+		<h1>5xx</h1>
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<p>Коды 5xx выделены под случаи неудачного выполнения операции по вине сервера. Для всех ситуаций, кроме использования метода HEAD, сервер должен включать в тело сообщения объяснение, которое клиент отобразит пользователю.</p>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Поиск..">
+			<li data-icon="false">
+				<a href="500.html" data-transition="none" data-ajax="false">
+					<h2>500 Internal Server Error</h2>
+					<p>Внутренняя ошибка сервера</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="501.html" data-transition="none" data-ajax="false">
+					<h2>501 Not Implemented</h2>
+					<p>Метод не поддерживается</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="502.html" data-transition="none" data-ajax="false">
+					<h2>502 Bad Gateway</h2>
+					<p>Ошибка шлюза</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="503.html" data-transition="none" data-ajax="false">
+					<h2>503 Service Unavailable</h2>
+					<p>Служба недоступна</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="504.html" data-transition="none" data-ajax="false">
+					<h2>504 Gateway Timeout </h2>
+					<p>Время прохождения через<br/>межсетевой шлюз истекло</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="505.html" data-transition="none" data-ajax="false">
+					<h2>505 HTTP Version<br/>Not Supported</h2>
+					<p>Версия НТТР не поддерживается</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="506.html" data-transition="none" data-ajax="false">
+					<h2>506 Variant Also Negotiates</h2>
+					<p>Вариант тоже проводит согласование</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="507.html" data-transition="none" data-ajax="false">
+					<h2>507 Insufficient Storage</h2>
+					<p>Недостаточно места</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="508.html" data-transition="none" data-ajax="false">
+					<h2>508 Loop Detected</h2>
+					<p>Обнаружено бесконечное перенаправление</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="509.html" data-transition="none" data-ajax="false">
+					<h2>509 Bandwidth Limit<br/>Exceeded</h2>
+					<p>Исчерпана пропускная ширина канала</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="510.html" data-transition="none" data-ajax="false">
+					<h2>510 Not Extended</h2>
+					<p>Отсутствуют расширения</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="511.html" data-transition="none" data-ajax="false">
+					<h2>511 Network<br/>Authentication Required</h2>
+					<p>Требуется сетевая аутентификация</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="520.html" data-transition="none" data-ajax="false">
+					<h2>520 Unknown Error</h2>
+					<p>Неизвестная ошибка</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="521.html" data-transition="none" data-ajax="false">
+					<h2>521 Web Server Is Down</h2>
+					<p>Веб-сервер не работает</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="522.html" data-transition="none" data-ajax="false">
+					<h2>522 Connection Timed Out</h2>
+					<p>Соединение не отвечает</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="523.html" data-transition="none" data-ajax="false">
+					<h2>523 Origin Is Unreachable</h2>
+					<p>Источник недоступен</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="524.html" data-transition="none" data-ajax="false">
+					<h2>524 A Timeout Occurred </h2>
+					<p>Время ожидания истекло</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="525.html" data-transition="none" data-ajax="false">
+					<h2>525 SSL Handshake Failed</h2>
+					<p>Квитирование SSL не удалось</p>
+				</a>
+			</li>
+			<li data-icon="false">
+				<a href="526.html" data-transition="none" data-ajax="false">
+					<h2>526 Invalid SSL Certificate </h2>
+					<p>Недействительный сертификат SSL</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+
+</body>
+</html>
