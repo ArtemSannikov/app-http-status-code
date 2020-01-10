@@ -2,8 +2,8 @@
 	<widget xmlns        = "http://www.w3.org/ns/widgets"
 		    xmlns:gap    = "http://phonegap.com/ns/1.0"
 		    id           = "http.status.code"
-		    versionCode  = "3"
-		    version      = "1.1">
+		    versionCode  = "4"
+		    version      = "1.2">
 
 		    <!-- Название приложения -->
 		    <name>Коды HTTP</name>
@@ -34,7 +34,7 @@
 
 			<!-- Версия API  -->
 			<!--<preference name="android-minSdkVersion" value="19">-->
-			<preference name="android-targetSdkVersion" value="26" />
+			<preference name="android-targetSdkVersion" value="28" />
 	
 			<!-- разрешение для переноса приложения на SD карту -->
 			<preference name="android-installLocation" value="auto" />
